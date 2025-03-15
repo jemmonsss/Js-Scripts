@@ -1,14 +1,16 @@
-```markdown
+
+---
+
 # GitHub EXE Manager
 
-GitHub EXE Manager is a Python-based GUI application that lets you browse, download, and run EXE files from GitHub repositories for the user **jemmonsss**. The application features a modern, minimalist design with two tabs: one for downloading available EXE releases and another for managing your downloaded files.
+GitHub EXE Manager is a Python-based GUI application that lets you browse, download, and run EXE files from GitHub repositories for the user **jemmonsss**. The app features a modern, minimalist design with two tabs: one for downloading available EXE releases and another for managing your downloaded files.
 
 ## Features
 
-- **Browse and Refresh:** Automatically loads available EXE releases from GitHub.
-- **Download:** Download selected EXE files with just one click.
-- **Manage Downloads:** View and run your downloaded EXE files.
-- **Modern UI:** Clean and simple interface for easy navigation.
+- **Auto-Refresh:** Loads available EXE releases from GitHub automatically.
+- **One-Click Download:** Easily download your chosen EXE file.
+- **File Management:** View and run downloaded EXE files.
+- **Modern UI:** Clean, simple, and intuitive design.
 
 ## Requirements
 
@@ -18,16 +20,20 @@ GitHub EXE Manager is a Python-based GUI application that lets you browse, downl
 
 ## Installation
 
-1. **Clone or Download the Repository:**
+1. **Clone or Download the Repository**
 
-   ```bash
+   Open your terminal or command prompt and run:
+   
+   ```
    git clone https://github.com/jemmonsss/Js-Scripts.git
    cd Js-Scripts
    ```
 
-2. **Install Dependencies:**
+2. **Install Dependencies**
 
-   ```bash
+   Install the required Python packages:
+   
+   ```
    pip install PyQt5 requests
    ```
 
@@ -35,26 +41,26 @@ GitHub EXE Manager is a Python-based GUI application that lets you browse, downl
 
 ### Using run.bat (Recommended)
 
-For the simplest start, **double-click the `run.bat` file** included in this repository. This batch file will automatically launch the GitHub EXE Manager for you.
+Double-click the **run.bat** file included in the repository. This batch file will launch GitHub EXE Manager automatically.
 
 ### Using the Command Line
 
-If you prefer running from the command line, execute:
-
-```bash
+Alternatively, run:
+   
+```
 python main.py
 ```
 
 ## Pre-Built Executable
 
-If you don't want to run or build the Python script yourself, you can download the pre-built EXE from our releases page:
+If you prefer not to run or build the Python script yourself, you can download the pre-built EXE from our releases page:
 
 [Download GitHub EXE Manager EXE](https://github.com/jemmonsss/Js-Scripts/releases/download/JsScripts/JsScripts.exe)
 
 ## How to Use
 
 1. **Download Tab:**
-   - Click **Refresh List** to load the available EXE releases.
+   - Click **Refresh List** to load available EXE releases.
    - Select a release from the dropdown menu.
    - Click **Download Selected EXE** to download the file.
 
@@ -68,7 +74,6 @@ Contributions are welcome! If you have suggestions, improvements, or bug fixes, 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This README provides clear, concise instructions on how to run the application using `run.bat` or from the command line, and it also includes a link for users to download the pre-built executable if preferred.
+---

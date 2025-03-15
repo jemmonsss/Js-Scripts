@@ -74,6 +74,6 @@ Contributions are welcome! If you have suggestions, improvements, or bug fixes, 
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/jemmonsss/Js-Scripts/blob/main/LICENSE) file for details.
 
 ---
